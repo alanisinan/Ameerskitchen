@@ -5,9 +5,8 @@ body {
   background: transparent;
   color: #1a1a1a;
 }
-
 .container {
-  background: rgba(255, 255, 255, 0.95); /* semi-transparent white */
+  background: rgba(255, 255, 255, 0.95);
   padding: 20px;
   width: 100%;
   max-width: 600px;
@@ -16,38 +15,31 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
 }
-
 h1 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 1.5em;
 }
-
 input[type="range"] {
   width: 100%;
 }
-
 .meal-options,
 .side-options {
   margin: 10px 0;
 }
-
 .total {
   margin-top: 20px;
   font-size: 1.2em;
   font-weight: bold;
 }
-
 label {
   display: block;
   margin: 5px 0;
 }
-
 .note {
   font-size: 0.95em;
   margin-top: 20px;
 }
-
 button {
   padding: 10px 20px;
   font-size: 1em;
@@ -58,20 +50,16 @@ button {
   border: none;
   border-radius: 4px;
 }
-
 button:hover {
   background-color: #555;
 }
-
 @media (max-width: 480px) {
   .container {
     padding: 15px;
   }
-
   h1 {
     font-size: 1.2em;
   }
-
   button {
     width: 100%;
   }
