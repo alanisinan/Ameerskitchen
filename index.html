@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catering Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ameer's Kitchen Catering Calculator</h1>
+
+    <label for="guests">Number of Guests: <span id="guest-count">1</span></label>
+    <input type="range" id="guests" min="1" max="500" value="1" />
+
+    <h2>Main Meal (choose one)</h2>
+    <div class="meal-options">
+      <label><input type="radio" name="main" value="mix" /> Ameer's Mixed Grill ($9.99)</label>
+      <label><input type="radio" name="main" value="kabab" checked /> Kabab ($7.99)</label>
+      <label><input type="radio" name="main" value="chicken" /> Chicken Shawarma ($7.99)</label>
+      <label><input type="radio" name="main" value="steak" /> Steak Shawarma ($7.99)</label>
+    </div>
+    <p><em>All meals include a side of salad and rice.</em></p>
+
+    <h2>Extra Sides (optional)</h2>
+    <div class="side-options">
+      <label><input type="checkbox" value="baklava" /> Baklava ($2 per guest)</label>
+      <label><input type="checkbox" value="beverages" /> Beverages (Coca Cola, Sprite, Fanta) ($2 per guest)</label>
+    </div>
+
+    <div class="total">
+      <h3>Total Cost: <span id="total">$15.00</span></h3>
+    </div>
+
+    <p class="note"><strong>Final pricing for all main meals is based on the total guest count.</strong><br>
+For fewer than 10 guests, a minimum charge of $14.99 per guest applies.<br>
+For groups of 10 or more, the following discounts are applied:</p>
+<ul class="note">
+  <li>10–24 guests: $0.50 off per guest</li>
+  <li>25–49 guests: $1.00 off per guest</li>
+  <li>50–99 guests: $1.50 off per guest</li>
+  <li>100–500 guests: $2.00 off per guest</li>
+</ul>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <button id="screenshot-btn">Take Screenshot</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
