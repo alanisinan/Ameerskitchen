@@ -1,5 +1,5 @@
 const basePrices = {
-  kabab: 7.99,
+  kabob: 7.99,
   chicken: 7.99,
   steak: 7.99,
   mix: 9.99,
