@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Catering Calculator</title>
+  <title>Catering Price Estimator</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>Ameer's Kitchen Catering Calculator</h1>
+    <h1>Ameer's Kitchen Catering Price Estimator</h1>
 
     <label for="guests">Number of Guests: <span id="guest-count">1</span></label>
     <input type="range" id="guests" min="1" max="500" value="1" />
@@ -30,6 +30,8 @@
 
     <div class="total">
       <h3>Total Cost: <span id="total">$15.00</span></h3>
+      <p class="disclaimer"><em>Note: This is an estimated cost. Final pricing may vary depending on order details and service options.</em></p>
+
     </div>
 
     <p class="note"><strong>Final pricing for all main meals is based on the total guest count.</strong><br>
