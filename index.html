@@ -11,7 +11,7 @@
     <h1>Ameer's Kitchen Catering Price Estimator</h1>
 
     <label for="guests">Number of Guests: <span id="guest-count">1</span></label>
-    <input type="range" id="guests" min="1" max="500" value="1" />
+    <input type="range" id="guests" min="1" max="100" value="1" />
 
     <h2>Main Meal (choose one)</h2>
     <div class="meal-options">
@@ -31,19 +31,22 @@
 
     <div class="total">
       <h3>Total Cost: <span id="total">$15.00</span></h3>
-      <p class="disclaimer"><em>Note: This is an estimated cost. Final pricing may vary depending on order details and service options.</em></p>
-
     </div>
 
     <p class="note"><strong>Final pricing for all main meals is based on the total guest count.</strong><br>
     For fewer than 10 guests, a minimum charge of $14.99 per guest applies.<br>
     For groups of 10 or more, the following discounts are applied:</p>
-    <ul class="note">
-      <li>10–24 guests: $0.50 off per guest</li>
-      <li>25–49 guests: $1.00 off per guest</li>
-      <li>50–99 guests: $1.50 off per guest</li>
-      <li>100–500 guests: $2.00 off per guest</li>
-    </ul>
+<ul class="note">
+  <li>10–24 guests: $0.50 off per guest</li>
+  <li>25–49 guests: $1.00 off per guest</li>
+  <li>50–99 guests: $1.50 off per guest</li>
+  <li>100+ guests: A larger discount will be applied</li>
+  <p class="note">
+  <strong>Note:</strong> This tool is only an estimator to show what meals we offer and give a rough idea of pricing.
+  <br>Final pricing will be customized after you submit the request form.
+</p>
+
+</ul>
   </div>
 
   <script src="script.js"></script>
