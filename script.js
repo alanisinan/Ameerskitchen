@@ -3,6 +3,7 @@ const basePrices = {
   chicken: 7.99,
   steak: 7.99,
   mix: 9.99,
+  vegi: 7.99,
   baklava: 2,
   beverages: 2
 };
